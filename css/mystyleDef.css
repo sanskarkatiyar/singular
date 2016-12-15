@@ -1,0 +1,227 @@
+/* MY NOTES - Sanskar Katiyar 
+ * 
+ * For the image modals, to add a description text to an image, we can use the caption tag
+ * and override the style of the caption to be NOT VISIBLE. Then in our code in js we can 
+ * easily appendTo('.modal-body) the caption using some custom style.
+
+ * 
+ * 
+ *
+
+*/
+
+
+@font-face {
+    font-family: productSans;
+    src: url('../fonts/prosans.ttf');
+}
+
+#contactform{
+    font-family: 'Roboto','Calibri',sans-serif;
+    font-weight: 500;
+}
+
+div.borders{
+    /*Make sure you have enough padding*/
+    border-style: solid;
+    border-width: 3px 0px;
+    border-color:aliceblue;
+}
+
+#mission{
+    background-image: url('../_img/1.jpg');
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-size:25%;
+}
+
+@media screen and (max-width:768px){
+ #mission{
+    background-image:none;
+}   
+}
+
+h2.works{
+    margin-top: -10px;
+    font-size: 2.8em;
+    color: aliceblue;
+    padding-top: 2.5px;
+    font-family: 'productSans','Roboto',monospace;
+}
+
+h3.works{
+    margin-top: -5px;
+    padding-bottom: 10px;
+    color: aqua;
+    font-family: 'Roboto','Montserrat',sans-serif;
+    font-weight: 200;
+}
+
+.media-object.custom-media{
+    color:aliceblue;
+    font-size: 54px;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+h2.custom-media{
+    font-family: 'Roboto','Montserrat',sans-serif;
+    color:aliceblue;
+    font-weight:300;
+}
+
+p.custom-media{
+    color: aliceblue;
+    font-family: 'Calibri',sans-serif;
+    line-height: normal;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.custombtn{
+    font-family: 'Roboto',sans-serif;
+}
+
+.screenHeight{
+    /*Empty class for use by a little maneuver if things don't work out.
+     * SORRY!
+     */   
+}
+
+.img-responsive-height{
+    display:block;
+    width:auto;
+    max-height:100%;
+}
+
+.navbar-header .navbar-brand{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.45);
+}
+
+body {
+    position:relative;
+    padding:0px;
+    /*padding-top:50px;*/
+}
+
+nav ul{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.slideOne{
+    background-image: url(../_img/bgOne.jpg);
+    height: relative;
+    font-family: 'productSans', sans-serif;
+    color:aliceblue;
+    /*margin-bottom: 0px;*/
+}
+
+
+.title-heading{
+    color: floralwhite;
+    font-weight: 700;   
+}
+
+.jumbo-title-heading{
+    color: floralwhite;
+    margin-top: 35px;
+    
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+
+.jumbo-sub-heading{
+    color: floralwhite;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    border-bottom-style: dotted;
+    border-bottom-width: 3px;
+    border-bottom-color: #FFFFFF;
+    padding-bottom:2.5px;
+}
+
+h1.subtitle-heading{
+    font-family: 'Roboto','Montserrat',sans-serif;
+    font-weight: 200;
+    font-size:48px;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1.subtitle-heading {
+        font-size:32px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    h1.subtitle-heading {
+        font-size:24px;
+    }
+}
+
+.btn-circle{
+    width:49px;
+    height:49px;
+    font-size:16px;    
+    border-radius:30px;
+}
+
+.jumboAlign{
+    margin-bottom:0px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    min-height: 400px;
+}
+
+p.progress-label{
+    font-family: 'Roboto',sans-serif;
+    color:azure;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+img.thumb-border{
+    border: 5px solid aliceblue;
+    border-radius: 3px;
+    margin:5px auto 5px auto;
+    height:320px;
+}
+
+img.thumb-border:hover{
+    opacity:0.8;   
+}
+
+@media screen and (max-width:425px)
+{
+    img.thumb-border{
+        border: 5px solid aliceblue;
+        border-radius: 3px;
+        margin:5px auto 5px auto;
+        height:100px;
+    }
+}
+
+.modal-content{
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    margin-top:50px;    
+}
+
+.modal-content .modal-header{
+    text-align: center;
+    
+}
