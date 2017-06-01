@@ -1,4 +1,4 @@
-# iamsingle
+# singular
 A single page website implemented using Bootstrap.
 
 This is a singe page website, based on the design guidelines of GDG VIT Vellore's (old) website with subtle improvements in elements and responsiveness, implemented in Bootstrap. For learning experience.
