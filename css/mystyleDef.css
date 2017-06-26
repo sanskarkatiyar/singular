@@ -29,7 +29,7 @@ div.borders{
 }
 
 #mission{
-    background-image: url('../_img/1.jpg');
+    background-image: url('../img/1.jpg');
     background-repeat:no-repeat;
     background-position: right bottom;
     background-size:25%;
@@ -120,7 +120,7 @@ nav ul{
 }
 
 .slideOne{
-    background-image: url(../_img/bgOne.jpg);
+    background-image: url(../img/bgOne.jpg);
     height: relative;
     font-family: 'productSans', sans-serif;
     color:aliceblue;
